@@ -112,7 +112,7 @@ function preload() {
 
 function setup() {
   load.remove();
-  createCanvas(400, 400); //Of course you do that!
+  createCanvas(400, 400).position(windowWidth / 2, windowHeight / 2); //Of course you do that!
   music.play(); // :D
   fill(0);
 
